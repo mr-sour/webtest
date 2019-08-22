@@ -1,0 +1,11 @@
+
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: install-webtest
+    description: "install webtest though lava"
+    version: "1.0"
+    maintainer:
+        - chris
+run:
+    steps:
+        - python setup.py install
